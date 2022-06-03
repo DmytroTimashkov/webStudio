@@ -1,0 +1,93 @@
+@media (max-width: 992px) {
+  .footer{
+    .contact_wrp{
+      padding: 0;
+    }
+      .advertising{
+        margin: 0;
+      }
+      .advertising_wrp{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 30px 0 0 0;
+      }
+      .contact_wrp{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 30px 0 0 0;
+      }
+      .contact{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+  @media (max-width:768px){
+    .footer{
+      .services_wrp{
+        padding: 0;
+        
+      }
+      .services_item{
+        margin: 0;
+        padding: 0;
+        flex-wrap: wrap;
+        .sec_item,.first_item{
+          text-align: center;
+          width: 100%;
+          text-align: center;
+        }
+      }
+      .about_company_wrp{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 0 20px 0;
+        padding: 0;
+        .about_company{
+          display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+  
+        }
+      }
+      .services_title{
+        margin: 0 0 15px;
+      }
+      .advertising_wrp{
+        margin: 0;
+        padding: 0;
+        text-align: center;
+      }
+      h3{
+        font-size: 20px;
+        margin-bottom: 15px;
+      }
+      .network_wrp{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 0 0 20px 0;
+        padding: 0;
+        .network{
+          a{
+            display: flex;
+            justify-content: center;
+          }
+
+        }
+      }
+    }
+  }
+
+
+
